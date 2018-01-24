@@ -11,7 +11,6 @@ public class LaunchBrowser {
 		//As per dynamic polimorpysim child class object can refer by parent interface reference variable.
 		// we can write ChromeDriver driver= new Chromdriver - if you write these way then only Chrome will work.
 		//to prevent these we use dynamic polimorphysim.
-		
 		//Q:How we launch the browser= we launch Chrome browser with help Chrome Driver.
 		//Q:What is object?= new ChromeDriver
 		//Q:What is this concept name? dynamic polimorphysim- child class object refer by parent interface reference variable.

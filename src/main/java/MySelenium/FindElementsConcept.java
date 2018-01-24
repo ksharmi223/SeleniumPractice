@@ -24,9 +24,9 @@ public class FindElementsConcept {
 		// I can't store in single elements- i have to store in array but i can't use array because array size is fixed. thats why they already
 		//design to store in dynamic array.
 		
-		//total link on t he page// all the links are reprentented by a tag
+		//total link on t he page// all the links are represent by a tag
 		// list of webElements because will the elements call webElements
-		//lisklilst= will create an object and all the link will store there and list store object based on index
+		//lisklist= will create an object and all the link will store there and list store object based on index
 		
 		List<WebElement> linklist=driver.findElements(By.tagName("a"));
 		System.out.println(" Total links on the page" + linklist.size());
@@ -50,7 +50,7 @@ public class FindElementsConcept {
 			
 		//for (int i=0;i<textlist.size();i++) {
 			//textlist.get(i).sendKeys("sharmikhan");//to write something but not good practice// not logical // elements found but not visible
-			// ElementsNotVisiable= some of the emelents not visible.
+			// ElementsNotVisiable= some of the elements not visible.
 			
 			
 			//Q: In a particular page 4 log in button is there- i want to click on the 3rd button- how will you click on it

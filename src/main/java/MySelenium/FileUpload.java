@@ -25,8 +25,6 @@ public class FileUpload {
 	}
 
 }
-
-
 //FileUpLoad:
 // operating system PopUp: Selenium does not support this.
 //How to Upload:

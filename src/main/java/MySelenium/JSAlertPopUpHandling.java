@@ -24,7 +24,9 @@ public class JSAlertPopUpHandling {
 		String text=alert.getText();
 		System.out.println(" teh alert message is:" + text);
 		
-		//1st- get test ,2nd- verify and 3rd- accept /dismiss it
+		//1st- get test ,
+		//2nd- verify and 
+		//3rd- accept /dismiss it
 		if (alert.equals("Please enter a valid user name")) {
 		}else {
 			System.out.println("Incorrect message");

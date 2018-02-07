@@ -27,9 +27,5 @@ public class BasicWebDriverMethods {
 
 }
 
-
-
-
-
 //manage()- returning number of options-option is a abstract class which are having all those method maximize(), window(),deleteAllCookies()
 //
